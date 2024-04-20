@@ -12,7 +12,7 @@ import Blogs from "./pages/BlogsPage";
 export default function App() {
   return (
     <div id='body'>
-    <BrowserRouter >
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/about" element={<About/>}/>
           <Route path="/" element={<Home />} />
