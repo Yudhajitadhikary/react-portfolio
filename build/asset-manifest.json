@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.52fde2b7.css",
+    "main.js": "/static/js/main.eec3bd0b.js",
+    "static/media/Yudha.jpg": "/static/media/Yudha.1ff832a68dd6f2ad4fb5.jpg",
+    "index.html": "/index.html",
+    "main.52fde2b7.css.map": "/static/css/main.52fde2b7.css.map",
+    "main.eec3bd0b.js.map": "/static/js/main.eec3bd0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52fde2b7.css",
+    "static/js/main.eec3bd0b.js"
+  ]
+}
