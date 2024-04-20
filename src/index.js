@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/HomePage";
 import './index.css';
 import About from "./pages/AboutPage";
-import Works from "./pages/WorkPage";
+// import Works from "./pages/WorkPage";
 import Blogs from "./pages/BlogsPage";
 // import Contact from "./pages/ContactPage";
 // import NoPage from "./pages/NoPage";
@@ -12,12 +12,12 @@ import Blogs from "./pages/BlogsPage";
 export default function App() {
   return (
     <div id='body'>
-    <BrowserRouter>
+    <BrowserRouter >
       <Routes>
-        <Route path="about" element={<About/>}/>
+        <Route path="/about" element={<About/>}/>
           <Route path="/" element={<Home />} />
           {/* <Route path="works" element={<Works/>}/> */}
-          <Route path="blogs" element={<Blogs />} />
+          <Route path="/blogs" element={<Blogs />} />
           {/* <Route path="contact" element={<Contact />} /> */}
           {/* <Route path="*" element={<NoPage />} /> */}
       </Routes>
