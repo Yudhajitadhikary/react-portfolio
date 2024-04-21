@@ -6,10 +6,10 @@ const MobileNavigation=({open,handleHamburgerClose})=>{
             open?
         <div data-collapse="small" data-animation="default" data-duration="400" id="navbar-desktop" className="navbar-mobile">
             <nav role="navigation" className="nav-menu-2">
-                <a href="#/react-portfolio" className="nav-link-desktop nav-link-nad w-nav-link"> Home</a>
-                <a href="#/react-portfolio/about" className="nav-link-desktop w-nav-link">About</a>
+                <a href="/" className="nav-link-desktop nav-link-nad w-nav-link"> Home</a>
+                <a href="/about" className="nav-link-desktop w-nav-link">About</a>
                 {/* <a href="/works" id="navbar-building" className="nav-link-desktop nav-link-building w-nav-link">Work</a> */}
-                <a href="#/react-portfolio/blogs" className="nav-link-desktop w-nav-link">Blogs</a>
+                <a href="/blogs" className="nav-link-desktop w-nav-link">Blogs</a>
                 {/* <a href="/contact" aria-current="page" className="nav-link-desktop nav-link-contact w-nav-link w--current">Contact</a> */}
                 <button 
                 className="humburgerClose"
