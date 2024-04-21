@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 // import Layout from "./pages/Layout";
 import Home from "./pages/HomePage";
 import './index.css';
@@ -12,7 +12,7 @@ import Blogs from "./pages/BlogsPage";
 export default function App() {
   return (
     <div id='body'>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={"/react-portfolio"}>
       <Routes>
         <Route path="/about" element={<About/>}/>
           <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ export default function App() {
           {/* <Route path="contact" element={<Contact />} /> */}
           {/* <Route path="*" element={<NoPage />} /> */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 }
