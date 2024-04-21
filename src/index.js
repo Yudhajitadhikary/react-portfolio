@@ -12,7 +12,7 @@ import Blogs from "./pages/BlogsPage";
 export default function App() {
   return (
     <div id='body'>
-    <HashRouter basename={"/react-portfolio"}>
+    <HashRouter>
       <Routes>
         <Route path="/about" element={<About/>}/>
           <Route path="/" element={<Home />} />
