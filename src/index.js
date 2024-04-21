@@ -12,12 +12,12 @@ import Blogs from "./pages/BlogsPage";
 export default function App() {
   return (
     <div id='body'>
-    <BrowserRouter basename={"/react-portfolio"}>
+    <BrowserRouter>
       <Routes>
-        <Route path="/about" element={<About/>}/>
+        <Route path="/react-portfolio/about" element={<About/>}/>
           <Route path="/" element={<Home />} />
           {/* <Route path="works" element={<Works/>}/> */}
-          <Route path="/blogs" element={<Blogs />} />
+          <Route path="react-portfolio/blogs" element={<Blogs />} />
           {/* <Route path="contact" element={<Contact />} /> */}
           {/* <Route path="*" element={<NoPage />} /> */}
       </Routes>
